@@ -1,0 +1,8 @@
+# Runtime dependencies for scientific-classifier
+# Pin tightly only if you need reproducibility; otherwise allow minor updates.
+
+ollama>=0.1.0  # Python client for local Ollama server
+tqdm>=4.66.0   # Progress bars
+
+# (Optional) Add dev/test tools below
+# pytest>=8.0.0

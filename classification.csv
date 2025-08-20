@@ -1,0 +1,3 @@
+id,sentence,is_scientific,confidence,justification,model
+1b93dc287ac459b262804a4602d4046417846629,1-liter_spherical,True,0.950,The use of specific quantities (1-liter) and a geometric shape (spherical) indicates a scientific context.,mistral
+167e349c7c3c3036ca784c343a8b1798b8f31c30,acid_concentration,True,1.000,"Acid concentration is a measurable property in chemistry, which falls under the scientific domain.",mistral
