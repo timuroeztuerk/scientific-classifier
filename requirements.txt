@@ -3,6 +3,5 @@
 
 ollama>=0.1.0  # Python client for local Ollama server
 tqdm>=4.66.0   # Progress bars
+google-genai>=0.3.0 # Gemini API client
 
-# (Optional) Add dev/test tools below
-# pytest>=8.0.0
