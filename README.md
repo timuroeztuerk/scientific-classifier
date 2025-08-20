@@ -1,6 +1,6 @@
 # scientific-classifier
 
-A script that uses a local LLM to classify bi and trigrams as "scientific" or "not scientific". It reads terms from a TSV file, deduplicates them, and appends classification results to a CSV file. 
+A script that uses local/cloud LLM to classify bi and trigrams as "scientific" or "not scientific". It reads terms from a txt file, deduplicates them, and appends classification results to a CSV file. 
 
 ## Install
 You will need a normal python environment with ollama installed from pip. I used mistral, but you can opt with any.
@@ -13,7 +13,7 @@ ollama pull mistral   # or another model; ensure it's available locally
 
 ## Run
 ```bash
-python classification.py
+python classifier.py
 ```
 Progress bar shows classification status. You can stop and re-run; existing IDs are skipped.
 
