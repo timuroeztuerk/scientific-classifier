@@ -45,7 +45,7 @@ MAX_RETRIES = 4
 
 SYSTEM_PROMPT = (
     "You are a strict scientific trigram classifier. All trigrams are separated by '_' instead of a space. "
-    "Decide if a single term (trigram/phrase) is 'scientific' (STEM / technical / academic) or 'not scientific'. "
+    "Decide if a single term (trigram/phrase) is 'scientific' or 'not scientific'. "
     "Return JSON with keys: is_scientific (true/false), confidence (0-1 float), justification (<=2 sentences, concise). "
     "Be consistent and do not include any extra keys."
 )

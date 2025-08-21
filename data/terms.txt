@@ -47,3 +47,9 @@
 47	acid-soluble_material
 48	acid_chromatography
 49	acid_concentration
+50	free_skin
+1285	gate_scaler
+1292	gene_code
+1514	i_shall
+1515	i_trust
+1516	i_write
